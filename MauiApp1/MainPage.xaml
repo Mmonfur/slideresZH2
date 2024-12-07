@@ -21,25 +21,4 @@
 
 
     </Grid>
-
-    <!--<VerticalStackLayout Padding="10">
-
-        <CollectionView x:Name="AbacusCollectionView">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <Grid ColumnDefinitions="*, Auto" RowDefinitions="Auto">
-                        <Slider Minimum="0" Maximum="9" Value="{Binding Value}" x:Name="ValueSlider" />
-                        <Label Text="{Binding Value}" Grid.Column="1" VerticalOptions="Center" />
-                    </Grid>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
-
-        <HorizontalStackLayout Margin="0,20,0,0">
-            <Button Text="Új sor" Command="{Binding AddRowCommand}" />
-            <Button Text="Összead" Command="{Binding SumCommand}" Margin="10,0,0,0" />
-        </HorizontalStackLayout>
-
-        <Label x:Name="TotalLabel" FontSize="24" HorizontalOptions="Center" />
-    </VerticalStackLayout> -->
 </ContentPage>
