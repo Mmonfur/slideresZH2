@@ -3,7 +3,7 @@
              x:Class="MauiApp1.MainPage">
     <Grid ColumnDefinitions="*, *, *" RowDefinitions="Auto, Auto, Auto">
         <CollectionView x:Name="AbacusCollectionView">
-            <CollectionView.ItemTemplate>
+            <CollectionView.ItemTemplate ItemsSource = "abacusRows">
                 <DataTemplate>
                     <Grid ColumnDefinitions="*, Auto" RowDefinitions="Auto">
                         <Slider Minimum="0" Maximum="9" Value="{Binding Value}" x:Name="ValueSlider" WidthRequest="200" HeightRequest="30" HorizontalOptions="End" />

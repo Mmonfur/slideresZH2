@@ -20,7 +20,6 @@ namespace MauiApp1
             InitializeComponent();
             abacusRows = new List<AbacusRow>();
             AddRow();  // Kezdetben hozzáadunk egy sort
-            AbacusCollectionView.ItemsSource = abacusRows;  // Beállítjuk a CollectionView forrást
 
             // Inicializáljuk a parancsokat
             AddRowCommand = new Command(OnAddRowClicked);
